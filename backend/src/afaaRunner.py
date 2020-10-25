@@ -14,7 +14,7 @@ import pandas as pd
 
 class afaaRunner:
     
-    def  __init__(self, inputFile, downloadPath):
+    def  __init__(self, inputFile, downloadPath, filtertype,filtervalue):
         dc = dataCollector()
         ps = playsSeperator()
         da = dataAnalytics()
@@ -31,7 +31,7 @@ class afaaRunner:
                 df2=dc.readfile(inputFile[i])
                 data=pd.concat([data,df2])
         print(data)
-        all_plays = ps.getDataframesByPlays(team, data)
+        all_plays = ps.getDataframesByPlays(team, data, filtertype, filtervalue)
         
         offensive_plays = {"PUNT", "KICKOFF_RETURN", "FIELDGOAL"}
         defensive_plays = {"PUNT_RETURN", "KICKOFF", "FIELDGOAL_BLOCK"}

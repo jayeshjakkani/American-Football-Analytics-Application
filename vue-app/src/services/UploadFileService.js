@@ -1,17 +1,23 @@
 import http from "../http-common"
 
 class UploadFileService{
-    upload(file, onUploadProgress) {
+    upload(file, onUploadProgress, selection, type, node) {
+        if(node === undefined){
+            alert("Select Filter");
+        }
+        else{
         let formData = new FormData();
 
         formData.append("file", file);
-
-        return http.post("/upload", formData, {
+        formData.append("selection", selection);
+        formData.append("type", type);
+        return http.post("http://localhost:5000/upload", formData, {
         headers: {
             "Content-Type": "multipart/form-data"
         },
         onUploadProgress
         }); 
+    }
     }
 
     getFiles() {

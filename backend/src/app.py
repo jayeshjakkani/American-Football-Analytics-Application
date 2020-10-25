@@ -34,6 +34,8 @@ def validate_extension(filename):
 
 @app.route('/upload', methods=['POST'])
 def upload_files():
+    filtervalue = request.form['selection']
+    filtertype = request.form['type']
     if request.method == 'POST':
         # logic to clean the folder
         #clean_directory(os.path.join(app.config['UPLOAD_FOLDER']))
@@ -65,7 +67,7 @@ def upload_files():
                 if(absolute_name not in filelist):
                     filelist.append(absolute_name)
             print(filelist)
-            ar = afaaRunner(filelist, app.config['DOWNLOAD_FOLDER'])
+            ar = afaaRunner(filelist, app.config['DOWNLOAD_FOLDER'], filtertype, filtervalue)
             
             response = jsonify({'message': 'files saved and runner function called'})
             response.headers.add('Access-Control-Allow-Origin', '*')
