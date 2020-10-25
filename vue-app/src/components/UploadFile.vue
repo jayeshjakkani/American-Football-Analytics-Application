@@ -231,7 +231,7 @@ export default {
 
       UploadService.upload(file, (event) => {
         this.progressInfos[idx].percentage = Math.round(100 * event.loaded / event.total);
-      }, this.selection, this.type)
+      }, this.selection, this.type, this.node)
         .then((response) => {
           console.log("Success!");
           bus.$emit("upload-success");

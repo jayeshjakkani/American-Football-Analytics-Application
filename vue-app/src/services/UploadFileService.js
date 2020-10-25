@@ -11,7 +11,7 @@ class UploadFileService{
         formData.append("file", file);
         formData.append("selection", selection);
         formData.append("type", type);
-        return http.post("/upload", formData, {
+        return http.post("http://localhost:5000/upload", formData, {
         headers: {
             "Content-Type": "multipart/form-data"
         },

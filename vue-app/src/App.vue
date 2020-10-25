@@ -10,7 +10,7 @@
       </b-card-text>
     </b-card>
     <b-container>
-      <NewUpload />
+      <UploadFile />
       <DisplayPhotos />
       <nav class="navbar fixed-bottom navbar-dark bg-info">
         <a class="navbar-brand" >
@@ -23,12 +23,12 @@
 </template>
 
 <script>
-import NewUpload from "@/components/NewUpload";
+import UploadFile from "@/components/UploadFile";
 import DisplayPhotos from "@/components/DisplayPhotos";
 export default {
   name: "App",
   components: {
-    NewUpload,
+    UploadFile,
     DisplayPhotos,
   },
 };
