@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Sep 18 13:47:15 2020
-
-@author: himol7
-"""
-
 
 class photoCoordinates:
     
