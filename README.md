@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/293692566.svg)](https://zenodo.org/badge/latestdoi/293692566)
+[![DOI](https://zenodo.org/badge/299747834.svg)](https://zenodo.org/badge/latestdoi/299747834)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/jayeshjakkani/American-Football-Analytics-Application.svg?branch=master)](https://travis-ci.org/jayeshjakkani/American-Football-Analytics-Application)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/himol7/American-Football-Analytics-Application/issues)
