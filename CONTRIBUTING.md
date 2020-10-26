@@ -27,3 +27,11 @@
 3. Bugs fixing branch should begin with "bugfix"
 4. Patching branch should have "patch" in the name
 
+## Code Style Guide 
+
+* Python language(Version 3.7) has been used to build this project repository
+* Make sure to add the functionalities in the form of modules
+* Any code which is not tested should be committed to the test codes in the code folder. After they are successfully tested, the  main code can be updated.
+* Variable Names should be self-explanatory
+* Comment the code so that a new contributor can understand the functionality of the modules easily
+* PEP8 is used as linter
