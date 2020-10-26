@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 17 19:36:42 2020
 
-@author: himol7
-"""
 
 from dataCollector import dataCollector
 from playsSeperator import playsSeperator
