@@ -8,9 +8,9 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 da = dataAnalytics()
 dc = dataCollector()
-data = dc.readfile("https://github.com/himol7/American-Football-Analytics-Application/blob/KrisshaJ-Testing/backend/src/NCSU.csv?raw=true")
+data = dc.readfile("https://github.com/jayeshjakkani/American-Football-Analytics-Application/blob/master/backend/src/NCSU.csv")
 ps = playsSeperator()
-all_plays = ps.getDataframesByPlays("NCST", data)
+all_plays = ps.getDataframesByPlays("NCST", data, "Season", "2019")
 offensive_plays = {"PUNT", "KICKOFF_RETURN", "FIELDGOAL"}
 defensive_plays = {"PUNT_RETURN", "KICKOFF", "FIELDGOAL_BLOCK"}
 
