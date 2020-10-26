@@ -41,6 +41,4 @@ class photoImposer:
             draw.text((x, y), message, fill=color, font=font)
         
         imagename = './' + downloadPath + '/' + playType + '_ANALYSIS.png'
-        print("Image name = ")
-        print(imagename)
         image.save(imagename)
