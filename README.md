@@ -54,7 +54,7 @@ pip install -r requirements.txt
 2. Please go to vue-app directory for running the front end.
 * Make sure that npm is installed in the system
 ```
-Run npm install 
+npm install npm -g  
 ```
 * Install Vue cli
 ```
