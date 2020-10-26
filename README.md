@@ -47,8 +47,9 @@ Things to be tested:
 
 
 ### Instructions to run:
-1. Install the dependency for backend application.
+1. Git clone the repository and install the dependency for backend application.
 ```
+git clone https://github.com/jayeshjakkani/American-Football-Analytics-Application.git
 pip install -r requirements.txt
 ```
 2. Please go to vue-app directory for running the front end.
