@@ -40,6 +40,7 @@ photoimposer: imposes the ratings of the players on the images.
 photocoordinates: defines the coordinates where the ratings needs to be present on the photos.
 datacollector: used to read the csv files.
 dataanalytics: this class takes formations and ratings as inputs and returns ratings of different players.
+
 backend source application: app.py
 afaarunner.py: integrates all the classes and gives the output for the ratings of players on images.
 
