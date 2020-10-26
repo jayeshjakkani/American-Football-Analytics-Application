@@ -20,3 +20,10 @@
 * To start contributing to the repository make sure you fork the repository first
 * Create a new branch to develop the project 
 * Write code to contribute and commit to create a pull request and merge it with the repository after it passes the CI build check
+
+## Branch Naming guideline
+1. Feature development branch should begin with  name as "feature" eg: feature-punt-kickoff-addition
+2. Each feature branch should have its own tests written
+3. Bugs fixing branch should begin with "bugfix"
+4. Patching branch should have "patch" in the name
+
