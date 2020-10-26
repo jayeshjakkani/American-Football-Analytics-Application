@@ -34,6 +34,15 @@ Here as you can see, Player **D28** was present **6** times on position **GL** a
 As a part of **Project 1**, a functioning application was built which performs data analytics on games data and outputs 6 individual images for each type of play. Each of these images have summarized data of respective plays imposed on them.
 As a part of **Project 2**, we have added a functionalities to get output of multiple files at once, filtering based on SEASON / MATCH WEEK / MONTH / MATCH and OPPONENT, Drag-and-Drop functionality in the Front End.
 
+### Description of each class and function:
+playseperator: takes the information regarding the team, datafiles, filter type and value and returns the dictonary with various positions.
+photoimposer: imposes the ratings of the players on the images.
+photocoordinates: defines the coordinates where the ratings needs to be present on the photos.
+datacollector: used to read the csv files.
+dataanalytics: this class takes formations and ratings as inputs and returns ratings of different players.
+backend source application: app.py
+afaarunner.py: integrates all the classes and gives the output for the ratings of players on images.
+
 ### Tasks to be completed as a part Project 3:
 
 Things to be tested:
