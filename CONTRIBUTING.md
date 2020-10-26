@@ -12,7 +12,7 @@
 
 ## Code of Conduct:
 
-* Please go through the [link](https://github.com/jayeshjakkani/American-Football-Analytics-Application/blob/master/CONTRIBUTING.md) before you begin contributing.
+* Please go through the [link](https://github.com/jayeshjakkani/American-Football-Analytics-Application/blob/master/CODE_OF_CONDUCT.md) before you begin contributing.
 
 ## Pull Request Submission Guidelines
 
