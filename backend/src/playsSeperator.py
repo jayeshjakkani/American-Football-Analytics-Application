@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 17 19:45:41 2020
 
-@author: himol7
-"""
 
 class playsSeperator:
     
