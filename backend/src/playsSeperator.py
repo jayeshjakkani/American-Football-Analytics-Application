@@ -9,18 +9,18 @@ Created on Thu Sep 17 19:45:41 2020
 class playsSeperator:
     
     def getDataframesByPlays(self, team, data, filtertype, filtervalue):
-        if(filtertype == "month"):
+        if(filtertype == "Month"):
             extract = data["pff_GAMEDATE"].iloc[0]
             extract_month = extract.split("-")
             if(int(extract_month[1]) == filtervalue):
                 data = data[(data["pff_GAMEDATE"]==extract)]
-        elif(filtertype == "season"):
+        elif(filtertype == "Season"):
         	data = data[(data["pff_GAMESEASON"]==filtervalue)]
-        elif(filtertype == "week"):
+        elif(filtertype == "Week"):
         	data = data[(data["pff_WEEK"]==filtervalue)]
-        elif(filtertype == "match"):
+        elif(filtertype == "Match"):
         	data = data[(data["pff_GAMEID"]==filtervalue)]
-        elif(filtertype == "opponent"):	
+        elif(filtertype == "Opponent"):	
             data1 = data[(data["pff_DEFTEAM"]==filtervalue)] 
             data2 = data[(data["pff_OFFTEAM"]==filtervalue)]
             data = pd.concat([data1,data2])
