@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-class photoCoordinates:
-    
+  class photoCoordinates:
     allCoordinates = {}
 
-# The positions with coordinates (0,0) were not available in experimental data. 
-# Therefore, coordinates for those positions are yet not confirmed.
-    
+#The positions with coordinates (0,0) were not available in experimental data. 
+#Therefore, coordinates for those positions are yet not confirmed.
     kickoff_coordinates = {
-        "R1" : (20, 140),
-        "R2" : (65, 140),
-        "R3" : (110, 140),
-        "R4" : (155, 140),
+        "R1": (20, 140),
+        "R2": (65, 140),
+        "R3": (110, 140),
+        "R4": (155, 140),
         "R5" : (200, 140),
         "PK" : (245, 140),
         "L5" : (290, 140),
