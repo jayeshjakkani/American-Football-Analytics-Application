@@ -42,6 +42,7 @@ datacollector: used to read the csv files.
 dataanalytics: this class takes formations and ratings as inputs and returns ratings of different players.
 
 backend source application: app.py
+
 afaarunner.py: integrates all the classes and gives the output for the ratings of players on images.
 
 ### Tasks to be completed as a part Project 3:
