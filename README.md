@@ -31,14 +31,15 @@ This particular image in a analysis data for filter **WEEK** and filter value **
 ![punt](images/punt_new.png)
 Here as you can see, Player **D28** was present **6** times on position **GL** and his overall score is **-0.5**
 
-As a part of **Project 1**, we have created a functioning application which performs data analytics on games data and outputs 6 individual images for each type of play. Each of these images have summarized data of respective plays imposed on them.
+As a part of **Project 1**, a functioning application was built which performs data analytics on games data and outputs 6 individual images for each type of play. Each of these images have summarized data of respective plays imposed on them.
+As a part of **Project 2**, we have added a functionalities to get output of multiple files at once, filtering based on SEASON / MATCH WEEK / MONTH / MATCH and OPPONENT, Drag-and-Drop functionality in the Front End.
 
-### Tasks to be completed as a part of Project 2:
+### Tasks to be completed as a part Project 3:
 
-1. Add functionality to get output of multiple files at once.
-2. After 1 is finished, add functionality to get output filtered based on SEASON / MATCH WEEK / MONTH / MATCH and OPPONENT
-3. Add Drag-and-Drop functionality in the Front End.
-4. Deploy the application on one of the publically available Cloud Services
+Things to be tested:
+1. Functional behavior of the Application
+2. Filtering functionality
+3. Analysis of multiple files at once using the Drag-and-Drop feature
 
 ### Technology Stack
 * Python Flask
