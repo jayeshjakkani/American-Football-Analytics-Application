@@ -15,6 +15,10 @@ We value your contribution. To keep everyone on the same track for contribution,
 9. On opening a Pull Request, add team members(s) as reviwers.
 10. Make necessary changes as per code review before merging the Pull request into Master branch.
 
+## Code of Conduct:
+
+* Please go through the [link](https://github.com/jayeshjakkani/American-Football-Analytics-Application/blob/master/CODE_OF_CONDUCT.md) before you begin contributing.
+
 ## Branch Naming guideline
 1. Feature development branch should begin with  name as "feature" eg: feature-punt-kickoff-addition
 2. Each feature branch should have its own tests written
