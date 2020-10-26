@@ -17,7 +17,8 @@ Create a web application which can:
 ### Why TouchDown?
 In 2002, Oakland Atheltics, a seemingly medium-strength team achieved unusual success in their season even after departure of key players. Behind their success was sabermetrics, a field which thrives on quantitative analysis of sports data. Drawing motivation from this success story and understanding the problems which the current football coaches at NC State are facing, we have developed TouchDown - a customer-centric easy-to-use application which provides you a pictorial analysis of position specific player performances.
 
-With a simple UI, all you need to do it just upload the data file<sup>1</sup> and the application promptly outputs the images where you can view your analysis. Furthermore, with some exciting features lined up, we'd be happy to incorporate some new features on demand.
+With a simple UI, all you need to do it just upload the data file<sup>1</sup> and the application promptly outputs the images where you can view your analysis. 
+Now with the new functionality features. Please check it out!!!
 
 To use the application, all the user needs to do is to upload the data file on provided tab.
 ![initialpage](images/frontpage_new.png)
@@ -36,18 +37,17 @@ As a part of **Project 2**, we have added a functionalities to get output of mul
 
 ### Description of each class and function:
 playseperator: takes the information regarding the team, datafiles, filter type and value and returns the dictonary with various positions.
-
 photoimposer: imposes the ratings of the players on the images.
-
 photocoordinates: defines the coordinates where the ratings needs to be present on the photos.
-
 datacollector: used to read the csv files.
-
 dataanalytics: this class takes formations and ratings as inputs and returns ratings of different players.
 
 backend source application: app.py
-
 afaarunner.py: integrates all the classes and gives the output for the ratings of players on images.
+
+### Use case of AFAA
+NC State has an upcoming football match with UNC. We have a data set of NCSU players and their previous matches. 
+Now AFAA analyzes this data and suggest the best combination of players for the game. 
 
 ### Tasks to be completed as a part Project 3:
 
